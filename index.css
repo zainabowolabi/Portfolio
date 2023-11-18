@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #222;
+    background: #f7f5f0;
+}
+
+a {
+    text-decoration: none;
+    color: #0499ff;
+}
+a:hover {
+    color: #6633ff;
+} 
+
+
+.main-nav {
+    width: 100%;
+    background: rgb(48, 33, 33);
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: disc;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav .name{
+    display: none;
+}
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+.nav a {
+    transition: all .5s;
+}
+.nav a:hover {
+    color: white
+}
+
+header {
+    text-align: center;
+    background: url('night-sky-background.jpg') no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+
+}
+header {
+    line-height: 2;
+}
+
+.tag {
+    background-color: #e2e2e2ee;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    display: table;
+    margin: 10px auto;
+}
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+}
+.card:hover {
+    border-color: #442b44;
+}
+
+ul.skills {
+    padding: 0;
+    text-align: center;
+}
+
+.skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #73bac4;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+}
+.skills li:nth-child(odd) {
+    background:#0703ff;
+}
+.flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+header {
+    min-height: 450px;
+}
+.nav {
+    max-width: 1200px;
+}
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+
+main {
+    padding-top: 50px;
+}
+main p {
+    line-height: 1.5cm
+}
